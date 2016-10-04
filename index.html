@@ -48,8 +48,25 @@
             height:300px;
             width:105%;
             background-color: darkorange;
+            transition: 0.5s;
         }
-        .catpic{
+        #catpic{
+            margin:6%;
+            
+        }
+        #catpic2{
+            margin:6%;
+            
+        }
+        #catpic3{
+            margin:6%;
+            
+        }
+        #catpic4{
+            margin:6%;
+            
+        }
+        #catpic5{
             margin:6%;
             
         }
@@ -118,11 +135,11 @@
         
         <div id=place2>
             <div>
-            <img class=catpic src=http://placekitten.com/100/200>
-            <img class=catpic src=http://placekitten.com/100/200>
-            <img class=catpic src=http://placekitten.com/100/200>
-            <img class=catpic src=http://placekitten.com/100/200>
-            <img class=catpic src=http://placekitten.com/100/200>
+            <img id=catpic src=http://placekitten.com/100/200>
+            <img id=catpic2 src=http://placekitten.com/100/200>
+            <img id=catpic3 src=http://placekitten.com/100/200>
+            <img id=catpic4 src=http://placekitten.com/100/200>
+            <img id=catpic5 src=http://placekitten.com/100/200>
             <h3 id=mew1 class=meow>Meow</h3>
             <h3 id=mew2 class=meow>Meow</h3>
             <h3 id=mew3 class=meow>Meow</h3>
@@ -143,6 +160,28 @@
         
         <div id='banner1'><h3 id=tagline2>End</h3>
         </div>
-        
+        <script>
+        var catbut = document.getElementById('catpic')
+        var catbut2 = document.getElementById('catpic2')
+        var catbut3 = document.getElementById('catpic3')
+        var catbut4 = document.getElementById('catpic4')
+        var catbut5 = document.getElementById('catpic5')
+        var place2 = document.getElementById('place2')
+        catbut.onclick=function(){
+            place2.style.backgroundColor = 'red';
+        }
+        catbut2.onclick=function(){
+            place2.style.backgroundColor = 'green';
+        }
+        catbut3.onclick=function(){
+            place2.style.backgroundColor = 'blue';
+        }
+        catbut4.onclick=function(){
+            place2.style.backgroundColor = 'orange';
+        }
+        catbut5.onclick=function(){
+            place2.style.backgroundColor = 'yellow';
+        }
+        </script>
     </body>
 </html>
