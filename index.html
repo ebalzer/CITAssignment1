@@ -1,187 +1,28 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
     <head>
-        <title>Assignment 1</title>
+        
+        <title>
+            assignment 1
+        </title>
+        
+        <style>
+            
+            
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     </head>
-    <style>
-        body{margin:0;}
-        #banner1{
-            padding:100px;
-            position:relative;
-            width: 100vw;
-            height: 400px;
-            background-color: #9e3d11;
-            background-image: url(http://www.walldevil.com/wallpapers/w01/galactic-empire-star-wars-logos-wallpaper.jpg);
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover,auto;
-        }
-        #tagline1{
-            position: relative;
-            top:90%;
-            left:40%;
-            color:white;
-            font-size: 30px;
-        }
-        .profile{
-            position: absolute;
-            right:45%;
-            bottom:center;
-            width:100px;
-            height:auto;
-            border-radius:100px;
-        }
-        #place1{
-            height:300px;
-            width:105%;
-            background-color: grey;
-        }
-        #name{
-            position: relative;
-            top:50%;
-            left:48%;
-            color:rgba(0,0,0,0,1);
-            font-size: 15px;
-            margin-top: -10px;
-        }
-        #place2{
-            height:300px;
-            width:105%;
-            background-color: darkorange;
-            transition: 0.5s;
-        }
-        #catpic{
-            margin:6%;
-            
-        }
-        #catpic2{
-            margin:6%;
-            
-        }
-        #catpic3{
-            margin:6%;
-            
-        }
-        #catpic4{
-            margin:6%;
-            
-        }
-        #catpic5{
-            margin:6%;
-            
-        }
-        .meow{
-            text-align: center;  
-            position: absolute;  
-            font-size: 20px;  
-            z-index: 4;
-            
-        }
-        #place3{
-            padding: 50px;
-            height:600px;
-            width:105%;
-            background-color: darkgrey;
-        }
-        #mew1{
-            top: 95%;
-            right: 5%;
-        }
-        #mew2{
-            top: 95%;
-            right: 25%;
-        }
-        #mew3{
-            top: 95%;
-            right: 46%;
-        }
-        #mew4{
-            top: 95%;
-            right: 66%;
-        }
-        #mew5{
-            top: 95%;
-            right: 86%;
-        }
-
-        .midpic{
-            position: absolute;
-            right:65%;
-            bottom:-90%;
-        }
-        #text{
-            position: relative;
-            color:white;
-            font-size: 18px;
-            top: 50%;
-            left:50%;
-        }
-        #tagline2{
-            position: relative;
-            top:45%;
-            left:10%;
-            color:white;
-            font-size: 60px;
-        }
-    </style>
+   
     <body>
-        <div id='banner1'><h3 id=tagline1>Long Live The Empire</h3>
-            
+        <div id=top>
         </div>
-        
-        <div id=place1>
-            <img class=profile src=http://vignette2.wikia.nocookie.net/starwars/images/3/31/JerecScreenCap.jpg/revision/latest?cb=20090625122824><h3 id=name>Jerec</h3>
+        <div id=middle>
         </div>
-        
-        <div id=place2>
-            <div>
-            <img id=catpic src=http://placekitten.com/100/200>
-            <img id=catpic2 src=http://placekitten.com/100/200>
-            <img id=catpic3 src=http://placekitten.com/100/200>
-            <img id=catpic4 src=http://placekitten.com/100/200>
-            <img id=catpic5 src=http://placekitten.com/100/200>
-            <h3 id=mew1 class=meow>Meow</h3>
-            <h3 id=mew2 class=meow>Meow</h3>
-            <h3 id=mew3 class=meow>Meow</h3>
-            <h3 id=mew4 class=meow>Meow</h3>
-            <h3 id=mew5 class=meow>Meow</h3>
-            </div>
+        <div id=bottom>
         </div>
-        
-        <div id=place3>
-                <img class=midpic src=https://upload.wikimedia.org/wikipedia/en/2/2f/JediKnight-cover.jpg>
-                <p id= text>The game Dark Forces 2 Jedi Knight is a sequel to the game Dark Forces.<br>
-                    The character shown above is the<br>
-                    dark jedi Jerec. Jerec is in search of the valley of the jedi <br>
-                    a mystical place that is the source of the force.<br>
-                    Jerec wishes to use this valley to become all powerful</p>
-            
-        </div>
-        
-        <div id='banner1'><h3 id=tagline2>End</h3>
-        </div>
-        <script>
-        var catbut = document.getElementById('catpic')
-        var catbut2 = document.getElementById('catpic2')
-        var catbut3 = document.getElementById('catpic3')
-        var catbut4 = document.getElementById('catpic4')
-        var catbut5 = document.getElementById('catpic5')
-        var place2 = document.getElementById('place2')
-        catbut.onclick=function(){
-            place2.style.backgroundColor = 'red';
-        }
-        catbut2.onclick=function(){
-            place2.style.backgroundColor = 'green';
-        }
-        catbut3.onclick=function(){
-            place2.style.backgroundColor = 'blue';
-        }
-        catbut4.onclick=function(){
-            place2.style.backgroundColor = 'orange';
-        }
-        catbut5.onclick=function(){
-            place2.style.backgroundColor = 'yellow';
-        }
+        <script src='work.js'>
         </script>
+        
+        
     </body>
 </html>
